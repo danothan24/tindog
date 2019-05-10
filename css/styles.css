@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-right: 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Ubuntu";
+}
+
+/* Headings */
+.b-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-head {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+  margin-right: 0;
+  width: 100%;
+}
+
+/* Sections */
+.colored {
+  background-color: #FF4C68;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.iDog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 992px) {
+  .iDog {
+    position: static;
+    transform: rotate(0)
+  }
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+}
+
+/* Download Button */
+.d-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  position: relative;
+  width: 100%;
+}
+
+.fas-1 {
+  color: #EE8161;
+  padding: 2rem 0 2.5rem 0;
+  transform: scale(5);
+}
+
+.fas-1:hover {
+  color: #FF4C68;
+  padding: 2rem 0 2.5rem 0;
+  transform: scale(5);
+}
+
+.f-head {
+  line-height: 1.5;
+}
+
+.row {
+  margin-right: 0;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #EE8161;
+  position: relative;
+  z-index: 1;
+}
+
+.t-head {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.t-pic {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #EE8161;
+  padding-bottom: 3%;
+}
+
+.logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.p-img {
+  padding: 2rem 0 2rem 0;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.p-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Call To Action */
+.cta-h3 {
+  font-weight: bold;
+}
+
+/* Footer */
+.s-icon {
+  margin: 20px 10px;
+}
